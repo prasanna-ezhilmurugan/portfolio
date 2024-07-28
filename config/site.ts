@@ -63,7 +63,6 @@ export const siteConfig = {
     github: "https://github.com/prasanna-ezhilmurugan",
     twitter: "https://twitter.com/getnextui",
     docs: "https://nextui.org",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    discord: "https://discordapp.com/users/prasanna.ezhilmurugan/",
   },
 };
