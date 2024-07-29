@@ -1,11 +1,11 @@
-# My NextJS Portfolio
+# My Portfolio
 
-## to do list
+## To do list
 
-- [] About Page
-- [] Blog Page
-- [] Contact Page
-- [] Project Page
-- [] Skills Page
-- [] create Scroll effect
-- [] backend for mailing and resume download
+- [ ] About Page
+- [ ] Blog Page
+- [ ] Contact Page
+- [ ] Project Page
+- [ ] Skills Page
+- [ ] create Scroll effect
+- [ ] backend for mailing and resume download
