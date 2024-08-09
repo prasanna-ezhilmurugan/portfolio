@@ -1,5 +1,5 @@
 import {
-  Fira_Code as FontMono,
+  Space_Mono as FontMono,
   Rubik_Mono_One as FontSans,
 } from "next/font/google";
 
@@ -12,4 +12,5 @@ export const fontSans = FontSans({
 export const fontMono = FontMono({
   subsets: ["latin"],
   variable: "--font-mono",
+  weight: ["400"],
 });
