@@ -12,15 +12,15 @@ export default function Home() {
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
       <div className="inline-block text-center justify-center">
         <h1 className={title()}>Hi,I'm&nbsp;</h1>
-        <br />
+        <br /><br />
         <h1 className={title({ color: "violet" })}>Prasanna&nbsp;</h1>
+        <br /><br />
+        <h1 className={title()}>software developer</h1>
         <br />
-        <h1 className={title()}>web developer</h1>
         <h2 className={subtitle({ class: "mt-4" })}>
           Passionate About Coding And Innovative Solutions
         </h2>
       </div>
-
       <div className="flex gap-3">
         <Link
           isExternal

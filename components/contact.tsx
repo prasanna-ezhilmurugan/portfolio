@@ -19,7 +19,7 @@ const Contact: FC = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
+    <form onSubmit={handleSubmit(onSubmit)} className='w-full'>
       <div className='mb-5'>
         <label
           htmlFor='name'
@@ -56,7 +56,7 @@ const Contact: FC = () => {
           Message
         </label>
         <textarea
-          rows={4}
+          rows={8}
           placeholder='Type your message'
           className='w-full resize-none rounded-md border border-gray-300 bg-white py-3 px-6 text-base font-medium text-gray-700 outline-none focus:border-purple-500 focus:shadow-md'
           {...register('message', { required: true })}
