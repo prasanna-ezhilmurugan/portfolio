@@ -3,6 +3,7 @@
 import { FC } from 'react';
 import { useForm } from 'react-hook-form';
 import { sendEmail } from '@/utils/send-email';
+import { button as buttonStyles } from "@nextui-org/theme";
 
 export type FormData = {
   name: string;
@@ -22,7 +23,7 @@ const Contact: FC = () => {
       <div className='mb-5'>
         <label
           htmlFor='name'
-          className='mb-3 block text-base font-medium text-black'
+          className='mb-3 block text-base font-medium'
         >
           Full Name
         </label>
@@ -36,7 +37,7 @@ const Contact: FC = () => {
       <div className='mb-5'>
         <label
           htmlFor='email'
-          className='mb-3 block text-base font-medium text-black'
+          className='mb-3 block text-base font-medium'
         >
           Email Address
         </label>
@@ -50,7 +51,7 @@ const Contact: FC = () => {
       <div className='mb-5'>
         <label
           htmlFor='message'
-          className='mb-3 block text-base font-medium text-black'
+          className='mb-3 block text-base font-medium' 
         >
           Message
         </label>
@@ -62,7 +63,11 @@ const Contact: FC = () => {
         ></textarea>
       </div>
       <div>
-        <button className='hover:shadow-form rounded-md bg-purple-500 py-3 px-8 text-base font-semibold text-white outline-none'>
+        <button className={buttonStyles({
+            color: "primary",
+            radius: "full",
+            variant: "shadow",
+          })}>
           Submit
         </button>
       </div>
