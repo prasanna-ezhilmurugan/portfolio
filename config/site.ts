@@ -61,7 +61,7 @@ export const siteConfig = {
   ],
   links: {
     github: "https://github.com/prasanna-ezhilmurugan",
-    twitter: "https://twitter.com/getnextui",
+    linkedin: "https://linkedin.com/in/prasanna-ezhilmurugan",
     docs: "https://nextui.org",
     discord: "https://discordapp.com/users/prasanna.ezhilmurugan/",
   },

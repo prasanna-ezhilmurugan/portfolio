@@ -27,7 +27,7 @@ export const viewport: Viewport = {
   ],
 };
 
-import { TwitterIcon, GithubIcon, DiscordIcon } from "@/components/icons";
+import { TwitterIcon, GithubIcon, DiscordIcon, LinkedInIcon } from "@/components/icons";
 
 export default function RootLayout({
   children,
@@ -52,10 +52,10 @@ export default function RootLayout({
             <footer className="w-full flex items-center justify-center space-x-16 py-3">
               <Link
                 isExternal
-                aria-label="Twitter"
-                href={siteConfig.links.twitter}
+                aria-label="LinkedIn"
+                href={siteConfig.links.linkedin}
               >
-                <TwitterIcon className="text-default-500" />
+                <LinkedInIcon className="text-default-500" />
               </Link>
               <Link
                 isExternal
