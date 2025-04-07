@@ -1,11 +1,10 @@
-# My Portfolio
+# Porfolio
 
-## To do list
+![porfolio](./public/head.png)
+This is my personal portfolio using **Next.Js**.
 
-- [ ] About Page
-- [ ] Blog Page
-- [ ] Contact Page
-- [ ] Project Page
-- [ ] Skills Page
-- [ ] create Scroll effect
-- [ ] backend for mailing and resume download
+## Things I planned to implement:
+
+- [ ] create a blog page
+- [ ] contact page
+- [ ] create animation to page switch
