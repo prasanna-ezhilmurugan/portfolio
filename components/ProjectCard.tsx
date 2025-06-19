@@ -4,10 +4,10 @@ import {
   Card,
   CardHeader,
   CardBody,
-  CardFooter,
+  // CardFooter,
   Divider,
-  Link,
-  Image,
+  // Link,
+  // Image,
 } from "@heroui/react";
 import { GithubIcon } from "./icons";
 
@@ -20,7 +20,7 @@ export default function ProjectCard() {
     },
     {
       title: "Game of Life",
-      description: "Conway's game of life written in C & SDL",
+      description: "Conway&apos;s game of life written in C & SDL",
       link: "https://github.com/prasanna-ezhilmurugan/game-of-life.git",
     },
     {
@@ -36,8 +36,9 @@ export default function ProjectCard() {
   ];
   return (
     <div className="m-8 gap-2 grid grid-col-2 sm:grid-cols-4">
-      {list.map((item, index) => (
+      {list.map((item) => (
         <Card
+          key={item.title}
           className="max-w-[400px]"
           isPressable
           onPress={() => {
