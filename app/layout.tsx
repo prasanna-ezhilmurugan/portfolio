@@ -27,7 +27,12 @@ export const viewport: Viewport = {
   ],
 };
 
-import { TwitterIcon, GithubIcon, DiscordIcon, LinkedInIcon } from "@/components/icons";
+import {
+  TwitterIcon,
+  GithubIcon,
+  DiscordIcon,
+  LinkedInIcon,
+} from "@/components/icons";
 
 export default function RootLayout({
   children,
@@ -40,7 +45,7 @@ export default function RootLayout({
       <body
         className={clsx(
           "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable,
+          fontSans.variable
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>

@@ -12,9 +12,11 @@ export default function Home() {
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
       <div className="inline-block text-center justify-center">
         <h1 className={title()}>Hi,I'm&nbsp;</h1>
-        <br /><br />
+        <br />
+        <br />
         <h1 className={title({ color: "violet" })}>Prasanna&nbsp;</h1>
-        <br /><br />
+        <br />
+        <br />
         <h1 className={title()}>software developer</h1>
         <br />
         <h2 className={subtitle({ class: "mt-4" })}>
@@ -29,7 +31,7 @@ export default function Home() {
             radius: "full",
             variant: "shadow",
           })}
-          href={"/Prasanna-Ezhilmurugan-Resume.pdf"}
+          href={"https://flowcv.com/resume/4mjmf861q6ph"}
         >
           Resume
         </Link>
