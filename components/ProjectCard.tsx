@@ -20,7 +20,7 @@ export default function ProjectCard() {
     },
     {
       title: "Game of Life",
-      description: "Conway&apos;s game of life written in C & SDL",
+      description: "Conway's game of life written in C & SDL",
       link: "https://github.com/prasanna-ezhilmurugan/game-of-life.git",
     },
     {
