@@ -16,10 +16,10 @@ export const siteConfig = {
       label: "Projects",
       href: "/projects",
     },
-    // {
-    //   label: "Contact",
-    //   href: "/contact",
-    // },
+    {
+      label: "Contact",
+      href: "/contact",
+    },
   ],
   navMenuItems: [
     {
@@ -34,10 +34,10 @@ export const siteConfig = {
       label: "Projects",
       href: "/projects",
     },
-    // {
-    //   label: "Contact",
-    //   href: "/contact",
-    // },
+    {
+      label: "Contact",
+      href: "/contact",
+    },
   ],
   links: {
     github: "https://github.com/prasanna-ezhilmurugan",
