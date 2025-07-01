@@ -9,6 +9,7 @@ import { Providers } from "./providers";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
+import { PageWrapper } from "@/components/page-wrapper";
 
 export const metadata: Metadata = {
   title: {
@@ -53,7 +54,7 @@ export default function RootLayout({
           <div className="relative flex flex-col h-screen">
             <Navbar />
             <main className="container mx-auto max-w-full pt-16 px-6 flex-grow">
-              {children}
+              <PageWrapper>{children}</PageWrapper>
             </main>
             <footer className="w-full flex items-center justify-center space-x-16 py-3">
               <Link
