@@ -18,7 +18,7 @@ const Contact: FC = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
+    <form onSubmit={handleSubmit(onSubmit)} className='w-full max-w-md space-y-5'>
       <div className='mb-5'>
         <label
           htmlFor='name'
