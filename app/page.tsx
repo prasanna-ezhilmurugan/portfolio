@@ -43,7 +43,7 @@ export default function Home() {
             radius: "full",
             variant: "shadow",
           })}
-          href={"https://flowcv.com/resume/4mjmf861q6ph"}
+          href={"Prasanna-Ezhilmurugan-Resume.pdf"}
         >
           Resume
         </Link>

@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Portfolio website",
+  name: "Prasanna Ezhilmurugan",
   description: "Porfolio website",
   navItems: [
     {
@@ -16,10 +16,10 @@ export const siteConfig = {
       label: "Projects",
       href: "/projects",
     },
-    // {
-    //   label: "Contact",
-    //   href: "/contact",
-    // },
+    {
+      label: "Contact",
+      href: "/contact",
+    },
   ],
   navMenuItems: [
     {
@@ -34,10 +34,10 @@ export const siteConfig = {
       label: "Projects",
       href: "/projects",
     },
-    // {
-    //   label: "Contact",
-    //   href: "/contact",
-    // },
+    {
+      label: "Contact",
+      href: "/contact",
+    },
   ],
   links: {
     github: "https://github.com/prasanna-ezhilmurugan",
