@@ -1,7 +1,9 @@
+"use client";
 import { Link } from "@nextui-org/link";
 // import { Snippet } from "@nextui-org/snippet";
 // import { Code } from "@nextui-org/code";
 import { button as buttonStyles } from "@nextui-org/theme";
+import { Typewriter } from "react-simple-typewriter";
 
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
@@ -14,7 +16,17 @@ export default function Home() {
         <h1 className={title()}>Hi,I&apos;m&nbsp;</h1>
         <br />
         <br />
-        <h1 className={title({ color: "violet" })}>Prasanna&nbsp;</h1>
+        <h1 className={title({ color: "violet" })}>
+          <Typewriter
+            words={["Prasanna"]}
+            loop={false}
+            cursor
+            cursorStyle="|"
+            typeSpeed={250}
+            deleteSpeed={50}
+            delaySpeed={1500}
+          />
+        </h1>
         <br />
         <br />
         <h1 className={title()}>software developer</h1>
