@@ -10,6 +10,7 @@ import {
   // Image,
 } from "@heroui/react";
 import { GithubIcon } from "./icons";
+import { subtitle } from "./primitives";
 
 export default function ProjectCard() {
   const list = [
@@ -53,7 +54,7 @@ export default function ProjectCard() {
             </div>
           </CardHeader>
           <Divider />
-          <CardBody>
+          <CardBody className="font-mono">
             <p>{item.description}</p>
           </CardBody>
           {/* <Divider />
